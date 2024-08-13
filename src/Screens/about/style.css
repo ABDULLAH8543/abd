@@ -1,0 +1,30 @@
+#about-page{
+    height: 100px;
+}
+#about{
+    background-color: #C80D0E;
+    height: fit-content;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about p{
+    margin: 50px;
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
+#reviews{
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#reviews:hover{
+    background-color: rgb(68, 65, 253);
+    border-radius: 10px;
+    color: white;
+}

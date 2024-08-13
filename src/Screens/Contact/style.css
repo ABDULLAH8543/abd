@@ -1,0 +1,63 @@
+.form{
+    background-color: black;
+    color: white;
+}
+.form h1{
+    color: white;
+    margin: auto;
+    position: relative;
+    top: 80px;
+}
+.formmain{
+    display: flex;
+    height: 150px;
+    margin: auto;
+    width: 800px;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+}
+p{
+    text-transform: capitalize;
+}
+#email{
+    position: relative;
+    left: 20px;
+}
+#email-code{
+    text-transform: lowercase;
+    position: relative;
+    left: 30px;
+}
+#email, #github{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 875px) {
+    .formmain{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin: auto;
+        width: 70%;
+        justify-content: space-between;
+        margin-top: 50px;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .form h1{
+        color: white;
+        margin: auto;
+        position: relative;
+        top: 30px;
+    }
+    #email{
+        position: relative;
+        left: 0px;
+    }
+    #email-code{
+        left: 0px;
+    }
+}

@@ -1,0 +1,51 @@
+#first-outer {
+  height: 100vh;
+  background-color: rgb(200, 209, 167);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-heading{
+  width: 500px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-heading p{
+  text-align: center;
+  margin: 40px 0px;
+  color: white;
+  font-size: 20px;
+}
+#btn-p{
+  font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+}
+#btn-p:hover {
+  background-color: rgb(68, 65, 253);
+    border-radius: 10px;
+    color: white;
+}
+@media screen and (max-width: 400px) {
+  .first-heading{
+    width: 500px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+  }
+  .first-heading p{
+    text-align: center;
+    margin: 40px 20px;
+    color: white;
+    font-size: 18px;
+  }
+}
