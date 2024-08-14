@@ -15,7 +15,7 @@
 }
 .first-heading p{
   text-align: center;
-  margin: 40px 0px;
+  margin: 20px 0px;
   color: white;
   font-size: 20px;
 }
@@ -34,6 +34,9 @@
     color: white;
 }
 @media screen and (max-width: 400px) {
+  #top-heading{
+    font-size: 20px;
+  }
   .first-heading{
     width: 500px;
     margin-top: 100px;

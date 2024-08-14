@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { IoOptionsOutline } from "react-icons/io5";
-import { Link } from 'react-router-dom';
 import { FaBoltLightning } from "react-icons/fa6";
 import "./navbar.css";
 
@@ -26,11 +25,6 @@ const Navbar = () => {
         <ul style={{ display: open }}>
           <a href="#services-page">
             <li>Services</li>
-          </a>
-          <a href="#projects">
-            <Link to='/review'>
-            <li>Reviews</li>
-            </Link>
           </a>
           <a href="#about-page">
             <li>About</li>

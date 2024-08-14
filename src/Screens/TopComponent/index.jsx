@@ -6,12 +6,9 @@ const Index = () => {
   return (
     <div id="first-outer">
       <div className="first-heading">
-        <h1>Digital Media Agency</h1>
+        <h1 id="top-heading">Digital Marketing Agency</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
-          voluptatum, nostrum alias, expedita ab dolore amet accusamus ad
-          recusandae velit nihil cupiditate delectus, sapiente quidem iure aut
-          quam est earum!
+        A digital marketing agency is a team of experts who help businesses leverage online platforms to reach and engage their target audience. By combining creativity, data analysis, and strategic planning, these agencies create effective marketing campaigns across various digital channels such as search engines, social media, email, and websites to drive brand awareness, generate leads, and increase sales.
         </p>
         <div id="btn">
           <a href="#contact">
