@@ -58,7 +58,7 @@
 @media screen and (max-width: 1050px) {
     .fully-outer-footer{
         background-color: rgb(216, 237, 255);
-        height: 300px;
+        height: 500px;
         display: flex;
         justify-content: center;
         padding-bottom: 50px;

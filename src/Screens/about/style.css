@@ -1,5 +1,6 @@
 #about-page{
     height: 100px;
+    background-color: #C80D0E;
 }
 #about{
     background-color: #C80D0E;
@@ -18,5 +19,8 @@
 @media screen and (max-width: 450px) {
     #exp{
         font-size: 20px;
+    }
+    #about-page{
+        height: 10px;
     }
 }

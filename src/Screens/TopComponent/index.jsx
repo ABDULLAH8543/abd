@@ -11,9 +11,9 @@ const Index = () => {
         A digital marketing agency is a team of experts who help businesses leverage online platforms to reach and engage their target audience. By combining creativity, data analysis, and strategic planning, these agencies create effective marketing campaigns across various digital channels such as search engines, social media, email, and websites to drive brand awareness, generate leads, and increase sales.
         </p>
         <div id="btn">
-          <a href="#contact">
+          {/* <a href="#contact">
           <p id="btn-p">Contact us</p>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

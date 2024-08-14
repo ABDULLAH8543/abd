@@ -1,5 +1,18 @@
-#services-page{
+#services-page {
   height: 100px;
+}
+#service-fully-outer {
+  /* background: rgb(255, 80, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 80, 0, 0.8493522408963585) 0%,
+    rgba(255, 80, 0, 0.8493522408963585) 11%,
+    rgba(255, 0, 0, 1) 81%,
+    rgba(0, 0, 0, 0.7681197478991597) 100%
+  ); */
+  background-color: #E91E63;
+  padding-bottom: 70px;
+  margin-top: 600px;
 }
 h1 {
   display: flex;
@@ -8,6 +21,14 @@ h1 {
   font-weight: 500;
   letter-spacing: 1px;
   font-style: italic;
+}
+#dis{
+  color: white;
+  font-size: 17px;
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
 }
 .languagesgrid {
   display: grid;
@@ -84,6 +105,15 @@ h1 {
     font-style: italic;
     margin-top: 70px;
   }
+  #dis{
+    color: white;
+    font-size: 13px;
+    width: 70vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
   .languagesgrid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -95,4 +125,12 @@ h1 {
     width: 100vw;
     margin-bottom: 110px;
   }
+}
+@media screen and (max-width: 500px){
+  #services-page {
+    height: 50px;
+  }
+#service-fully-outer {
+  margin-top: 600px;
+}
 }
