@@ -31,7 +31,7 @@
   letter-spacing: 1px;
 }
 #main-heading span{
-  color: rgb(232, 255, 26);
+  color: rgb(255, 85, 0);
   font-style: italic;
 }
 #logo{
@@ -44,7 +44,7 @@
   letter-spacing: 0.5px;
   cursor: pointer;
   color: #ea6b49;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .outer ul {

@@ -38,8 +38,7 @@ h1 {
   margin: auto;
   margin-top: 70px;
 }
-.languagesgrid p {
-  height: 100px;
+#service-one {
   width: 300px;
   background-color: white;
   text-transform: capitalize;
@@ -51,42 +50,53 @@ h1 {
   position: relative;
   cursor: pointer;
 }
-.languagesgrid span {
-  position: relative;
-  top: 3px;
-  right: 10px;
-}
-.languagesgrid p:hover {
+#service-one:hover {
   transform: translateZ(100px);
   box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.3);
-}
-#react:hover {
-  background-color: #61dafb;
-  color: #20232a;
-}
-#native:hover {
-  background-color: #61dafb;
-  color: #20232a;
-}
-#js:hover {
+  font-weight: 500;
   background-color: #f7e025;
+}
+#service-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  padding: 20px 0px;
+}
+#landing-page-read-more{
+  background-color: #1ebae9;
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#landing-page-read-more:hover{
+  background-color: black;
+  color: white;
+}
+#link{
+  text-decoration: none;
   color: black;
+  font-weight: 500;
 }
-#css:hover {
-  background-color: #1f79bd;
-  color: white;
+#landing-page-dis{
+  margin: 20px;
+  width: 220px;
+  font-weight: 500;
+  text-align: center;
 }
-#html:hover {
-  background-color: #f16030;
-  color: white;
-}
+
 @media screen and (max-width: 1139px) {
   #languages {
     width: 100vw;
   }
   .languagesgrid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
     gap: 10px;
     width: fit-content;
     margin: auto;
@@ -114,6 +124,12 @@ h1 {
     justify-content: center;
     margin-top: 20px;
   }
+  #languages {
+    width: 100vw;
+    margin-bottom: 110px;
+  }
+}
+@media screen and (max-width: 626px){
   .languagesgrid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -121,9 +137,14 @@ h1 {
     width: fit-content;
     margin: auto;
   }
-  #languages {
-    width: 100vw;
-    margin-bottom: 110px;
+  #service-one {
+    width: 70vw;
+  }
+  #landing-page-dis{
+    margin: 20px;
+    width: 60vw;
+    font-weight: 500;
+    text-align: center;
   }
 }
 @media screen and (max-width: 500px){

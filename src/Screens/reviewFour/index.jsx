@@ -8,12 +8,12 @@ const index = () => {
     <div>
       <div className="read-more-outer">
         <div className="top">
-          <p>fdsacghdcsf</p>
+          <p>Ecommerce</p>
           <Link to="/" id="back-link">
             back
           </Link>
         </div>
-        <div className="mid">
+        {/* <div className="mid">
           <h1 id="mid-heading">
             Rank on Top of Web Results With Our SEO Services
           </h1>
@@ -34,7 +34,7 @@ const index = () => {
             presence and top your competition. Let us take the burden of SEO off
             your shoulder and find new customers for your business.
           </p>
-        </div>
+        </div> */}
         <div className="end">
           <h1>What We Provide</h1>
           <div className="end-cards">
