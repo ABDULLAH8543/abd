@@ -12,6 +12,7 @@
 }
 #top-heading{
   color: black;
+  font-weight: 700;
 }
 .first-heading{
   width: 500px;
@@ -48,7 +49,7 @@
 }
 @media screen and (max-width: 500px) {
   #first-outer {
-    height: 600px;
+    height: 700px;
   }
 }
 @media screen and (max-width: 400px) {

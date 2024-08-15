@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaUserFriends } from "react-icons/fa";
+import Contact from '../Contact/index'
 import "./style.css";
 
 const index = () => {
@@ -101,6 +102,7 @@ const index = () => {
           </div>
         </div>
       </div>
+      <Contact />
     </div>
   );
 };

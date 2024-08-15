@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 
 const index = () => {
@@ -29,9 +28,9 @@ const index = () => {
               leads, sales, or downloads, with clear calls-to-action to guide
               visitors.
             </p>
-            <Link to="/LandingPage" id="link">
+            <a href="/LandingPage" id="link">
               <button id="landing-page-read-more">Read more</button>
-            </Link>
+            </a>
           </div>
           <div id="service-one">
             CMS
@@ -41,9 +40,9 @@ const index = () => {
               knowledge. Think of it as a user-friendly tool for updating
               websites.
             </p>
-            <Link to="/CMS" id="link">
+            <a href="/CMS" id="link">
               <button id="landing-page-read-more">Read more</button>
-            </Link>
+            </a>
           </div>
           <div id="service-one">
             UI/UX design
@@ -53,9 +52,9 @@ const index = () => {
               understanding user needs, creating intuitive interfaces, and
               ensuring a seamless user experience.
             </p>
-            <Link to="/UI_UX_design" id="link">
+            <a href="/UI_UX_design" id="link">
               <button id="landing-page-read-more">Read more</button>
-            </Link>
+            </a>
           </div>
           <div id="service-one">
             Ecommerce
@@ -65,9 +64,9 @@ const index = () => {
               can reach customers globally without physical stores, offering
               convenience and a vast product range.
             </p>
-            <Link to="/Ecommerce" id="link">
+            <a href="/Ecommerce" id="link">
               <button id="landing-page-read-more">Read more</button>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
