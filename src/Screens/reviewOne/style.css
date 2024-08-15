@@ -94,16 +94,24 @@
     }
     .card-outer{
         background-color: aliceblue;
-        width: 70vw;
+        width: 80vw;
         height: fit-content;
         padding: 30px;
+        cursor: pointer;
+        transition: .5s;
+        color: rgb(85, 85, 85);
     }
 }
 @media screen and (max-width:500px){
     .card-outer{
         background-color: aliceblue;
-        width: 50vw;
+        width: 70vw;
         height: fit-content;
         padding: 30px;
+        position: relative;
+        right: 7%;
+    }
+    .end-cards{
+        gap: 30px;
     }
 }
