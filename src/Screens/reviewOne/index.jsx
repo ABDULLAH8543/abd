@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaUserFriends } from "react-icons/fa";
-import Contact from '../Contact/index'
+import Contact from "../Contact/index";
 import "./style.css";
 
 const index = () => {
@@ -14,28 +14,20 @@ const index = () => {
             back
           </Link>
         </div>
-        {/* <div className="mid">
+        <div className="mid">
           <h1 id="mid-heading">
-            Rank on Top of Web Results With Our SEO Services
+          Landing Pages
           </h1>
           <p id="first-dis">
-            Search Engine Optimization is one of the most integral parts of a
-            website that helps you rank higher on web pages and get more
-            conversion rates. Our SEO services will improve your website ranking
-            and get more potential customers.
+          Landing pages are the digital storefronts of your marketing campaigns. A marketing agency can craft compelling landing pages tailored to specific audience segments, optimizing them for conversions.
           </p>
           <p id="second-dis">
-            Users are more likely to trust sites that are on the first page of
-            search engine results pages (SERPs). SPARK Agency offers the best
-            SEO services in Pakistan. Our SEO experts will take your website to
-            the top of results and boost your website traffic
+          From design and development to A/B testing and performance analysis, agencies ensure that every element of the landing page works harmoniously to drive desired actions.
           </p>
           <p id="third-dis">
-            You should implement a good SEO strategy to build a strong web
-            presence and top your competition. Let us take the burden of SEO off
-            your shoulder and find new customers for your business.
+          By understanding user behavior and employing persuasive copywriting, they create landing pages that captivate visitors and turn them into leads or customers.  
           </p>
-        </div> */}
+        </div>
         <div className="end">
           <h1>What We Provide</h1>
           <div className="end-cards">
@@ -44,13 +36,10 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">Landing page design and development</p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Creating visually appealing, user-friendly landing pages
+                  aligned with your brand identity and marketing goals.
                 </p>
               </div>
             </div>
@@ -59,13 +48,10 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">Landing page copywriting</p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Crafting compelling and persuasive copy that resonates with
+                  your target audience and drives conversions.
                 </p>
               </div>
             </div>
@@ -74,13 +60,10 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">Landing page optimization</p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Analyzing landing page performance and making data-driven
+                  improvements to increase conversions.
                 </p>
               </div>
             </div>
@@ -89,20 +72,61 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">Landing page integration</p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Integrating landing pages with your existing website, CRM, and
+                  marketing automation tools.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">Landing Page Templates and Libraries</p>
+                <p id="card-dis">
+                Providing pre-designed templates and customizable elements to accelerate landing page creation.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">Landing Page Performance Analysis</p>
+                <p id="card-dis">
+                Tracking key metrics and providing insights to optimize landing page effectiveness over time.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">Landing Page Personalization</p>
+                <p id="card-dis">
+                Tailoring landing page content and design based on visitor behavior and demographics for increased engagement.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">Lead Generation and Capture</p>
+                <p id="card-dis">
+                Designing effective lead capture forms and integrating with CRM systems for efficient lead management.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    <Contact/>
+      <Contact />
     </div>
   );
 };

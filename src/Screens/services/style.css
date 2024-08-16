@@ -2,15 +2,7 @@
   height: 100px;
 }
 #service-fully-outer {
-  /* background: rgb(255, 80, 0);
-  background: radial-gradient(
-    circle,
-    rgba(255, 80, 0, 0.8493522408963585) 0%,
-    rgba(255, 80, 0, 0.8493522408963585) 11%,
-    rgba(255, 0, 0, 1) 81%,
-    rgba(0, 0, 0, 0.7681197478991597) 100%
-  ); */
-  background-color: #e91e63;
+  background-color: rebeccapurple;
   padding-bottom: 70px;
   margin-top: 600px;
 }

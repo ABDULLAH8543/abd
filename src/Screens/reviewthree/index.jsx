@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaUserFriends } from "react-icons/fa";
-import Contact from '../Contact/index'
+import Contact from "../Contact/index";
 import "./style.css";
 
 const index = () => {
@@ -14,28 +14,20 @@ const index = () => {
             back
           </Link>
         </div>
-        {/* <div className="mid">
+        <div className="mid">
           <h1 id="mid-heading">
-            Rank on Top of Web Results With Our SEO Services
+          UI/UX Design
           </h1>
           <p id="first-dis">
-            Search Engine Optimization is one of the most integral parts of a
-            website that helps you rank higher on web pages and get more
-            conversion rates. Our SEO services will improve your website ranking
-            and get more potential customers.
+          User interface (UI) and user experience (UX) design are crucial for creating websites that are both visually appealing and user-friendly. Marketing agencies specialize in crafting intuitive and engaging digital experiences.
           </p>
           <p id="second-dis">
-            Users are more likely to trust sites that are on the first page of
-            search engine results pages (SERPs). SPARK Agency offers the best
-            SEO services in Pakistan. Our SEO experts will take your website to
-            the top of results and boost your website traffic
+          Through thorough user research and persona development, they gain deep insights into target audiences, enabling them to design websites that resonate with users. 
           </p>
           <p id="third-dis">
-            You should implement a good SEO strategy to build a strong web
-            presence and top your competition. Let us take the burden of SEO off
-            your shoulder and find new customers for your business.
+          By focusing on information architecture, wireframing, and prototyping, agencies ensure that websites are easy to navigate and use. Ultimately, their goal is to create seamless digital journeys that delight users and drive conversions. 
           </p>
-        </div> */}
+        </div>
         <div className="end">
           <h1>What We Provide</h1>
           <div className="end-cards">
@@ -44,13 +36,10 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">User Research and Persona Development</p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Conducting in-depth user research to understand target
+                  audience needs and preferences.
                 </p>
               </div>
             </div>
@@ -59,13 +48,10 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">Information Architecture</p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Structuring website content and navigation for optimal user
+                  experience and findability.
                 </p>
               </div>
             </div>
@@ -74,13 +60,10 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">Wireframing and Prototyping</p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Creating visual representations of website layouts and
+                  interactions to facilitate design feedback.
                 </p>
               </div>
             </div>
@@ -89,13 +72,58 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">UI Design</p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Designing visually appealing and intuitive user interfaces
+                  that align with brand identity.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">UX Design</p>
+                <p id="card-dis">
+                  Optimizing user flows and interactions to create seamless and
+                  enjoyable user experiences.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">Responsive Design</p>
+                <p id="card-dis">
+                  Ensuring website adaptability across different devices and
+                  screen sizes.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">Accessibility</p>
+                <p id="card-dis">
+                  Designing websites to be accessible to users with
+                  disabilities, adhering to accessibility standards.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">Design System Development</p>
+                <p id="card-dis">
+                  Creating reusable design components and style guides for
+                  consistent and efficient design implementation.
                 </p>
               </div>
             </div>

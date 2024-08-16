@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaUserFriends } from "react-icons/fa";
-import Contact from '../Contact/index'
+import Contact from "../Contact/index";
 import "./style.css";
 
 const index = () => {
@@ -14,28 +14,26 @@ const index = () => {
             back
           </Link>
         </div>
-        {/* <div className="mid">
-          <h1 id="mid-heading">
-            Rank on Top of Web Results With Our SEO Services
-          </h1>
+        <div className="mid">
+          <h1 id="mid-heading">Ecommerce</h1>
           <p id="first-dis">
-            Search Engine Optimization is one of the most integral parts of a
-            website that helps you rank higher on web pages and get more
-            conversion rates. Our SEO services will improve your website ranking
-            and get more potential customers.
+            Ecommerce platforms are the digital storefronts for online
+            businesses.Marketing agencies can help clients select, implement,
+            and optimize ecommerce platforms to maximize sales.
           </p>
           <p id="second-dis">
-            Users are more likely to trust sites that are on the first page of
-            search engine results pages (SERPs). SPARK Agency offers the best
-            SEO services in Pakistan. Our SEO experts will take your website to
-            the top of results and boost your website traffic
+            From designing visually appealing online stores to managing product
+            information and optimizing the checkout process, agencies streamline
+            the entire customer journey. By integrating payment gateways,
+            shipping carriers, and inventory management systems, they ensure
+            smooth operations and order fulfillment.
           </p>
           <p id="third-dis">
-            You should implement a good SEO strategy to build a strong web
-            presence and top your competition. Let us take the burden of SEO off
-            your shoulder and find new customers for your business.
+            Furthermore, agencies can leverage SEO and marketing strategies to
+            increase website visibility and drive traffic, ultimately boosting
+            sales and revenue
           </p>
-        </div> */}
+        </div>
         <div className="end">
           <h1>What We Provide</h1>
           <div className="end-cards">
@@ -44,13 +42,12 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">
+                  Ecommerce Platform Selection and Implementation
+                </p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Recommending and implementing suitable ecommerce platforms
+                  based on business requirements and scale.
                 </p>
               </div>
             </div>
@@ -59,13 +56,10 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">Ecommerce Store Design and Development</p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Creating visually appealing and user-friendly online stores
+                  that drive sales.
                 </p>
               </div>
             </div>
@@ -74,13 +68,10 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">Product Information Management (PIM)</p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Managing product data, attributes, and images for efficient
+                  catalog management.
                 </p>
               </div>
             </div>
@@ -89,13 +80,58 @@ const index = () => {
                 <FaUserFriends />
               </p>
               <div className="card-inner">
-                <p id="card-heading">SEO Targets Quality Traffic</p>
+                <p id="card-heading">Shopping Cart Optimization</p>
                 <p id="card-dis">
-                  Unlike traditional advertising where a general audience is
-                  reached out to whether they are interested in your
-                  product/services, SEO focuses on attracting an audience who
-                  are actively interested for information related to your
-                  products/services/industry.
+                  Enhancing the checkout process to minimize cart abandonment
+                  and increase conversion rates.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">Payment and Shipping Integration</p>
+                <p id="card-dis">
+                  Integrating secure payment gateways and shipping carriers for
+                  smooth transactions.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">Inventory Management</p>
+                <p id="card-dis">
+                  Implementing inventory tracking and management systems to
+                  avoid stockouts and overstocking.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">earch Engine Optimization (SEO)</p>
+                <p id="card-dis">
+                  Optimizing product listings and website content for search
+                  engines to improve visibility.
+                </p>
+              </div>
+            </div>
+            <div className="card-outer">
+              <p id="review-logos">
+                <FaUserFriends />
+              </p>
+              <div className="card-inner">
+                <p id="card-heading">Marketing and Promotion</p>
+                <p id="card-dis">
+                  Developing and executing ecommerce marketing campaigns to
+                  drive traffic and sales.
                 </p>
               </div>
             </div>
